@@ -1,0 +1,22 @@
+{
+  "name": "backend-form-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Babajide Odesanya",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "nodemailer": "^6.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
