@@ -17,9 +17,10 @@ const mailAttribute = async ({name, phone, email, subject, message}) => {
         from: email,
         to: process.env.USER,
         subject,
-        name,
-        phone,
-        message,
+        text:`
+        Name: ${name}
+       Phone:  ${phone} 
+       Message: ${message}`
  });
   console.log(`Email Successfully sent to ${process.env.USER}`, info.messageId);
     } catch (error) {
