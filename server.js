@@ -16,6 +16,9 @@ const mailing = require('./routes/mailing');
 
 const app = express();
 
+//cors setup
+app.use(cors());
+
 // Body parser
 app.use(express.json());
 
