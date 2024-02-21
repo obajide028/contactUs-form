@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: #ffcccc;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 600px;
+        margin: auto;
+      "
+    >
+      <div style="background-color: #170101; padding: 20px; text-align: center">
+        <img
+          src="https://res.cloudinary.com/ddcp2fb2w/image/upload/v1708422866/suraab/Frame_1000003406_baxfsy.png"
+          alt=""
+        />
+      </div>
+      <div style="display: grid; gap: 15px; text-align: center; padding: 20px">
+        <div style="display: grid; justify-content: center">
+          <div
+            style="max-width: 100%; justify-self: center; align-self: center"
+          >
+            <img
+              src="https://res.cloudinary.com/ddcp2fb2w/image/upload/v1708422857/suraab/Frame_1000003375_grfen4.png"
+              alt=""
+              style="max-width: 100%"
+            />
+          </div>
+        </div>
+
+        <div style="grid-column: 1 / -1">
+          <h2>You just received a new message request</h2>
+        </div>
+        <div style="display: grid; gap: 15px">
+          <div>
+            <span style="color: #7a7a7a">Name:</span>
+            <span style="font-weight: bold">{{name}}</span>
+          </div>
+          <div>
+            <span style="color: #7a7a7a">Email:</span>
+            <span style="font-weight: bold">{{email}}</span>
+          </div>
+          <div>
+            <span style="color: #7a7a7a">Phone Number:</span>
+            <span style="font-weight: bold">{{phone}}</span>
+          </div>
+          <div>
+            <span style="color: #7a7a7a">Subject:</span>
+            <span style="font-weight: bold">{{subject}}</span>
+          </div>
+        </div>
+        <div>
+          <h1 style="color: black; font-size: 18px; margin-bottom: 0">
+            Message Request
+          </h1>
+          <p style="margin-top: 0">{{message}}</p>
+          <a
+            href="https://docs.google.com/spreadsheets/d/1z-SIcsOP1PYZPGJ88eIA7pILYz5SwQOYuAuXUzHUYoA/edit?usp=sharing"
+            style="text-decoration: none"
+          >
+            <div
+              style="
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                border: 2px solid red;
+                padding: 10px;
+              "
+            >
+              <span style="color: red; justify-self: center"
+                >View In Sheet</span
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
